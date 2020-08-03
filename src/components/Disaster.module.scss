@@ -1,0 +1,31 @@
+.item-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(226, 226, 226);
+    width: 100%;
+    font-size: 25px;
+    margin: 20px 0;
+    height: auto;
+    &:hover{
+        box-shadow: 5px 5px 20px rgb(179, 179, 179);
+    }
+
+    .title{
+        text-align: center;
+        .create-date{
+            font-size: 1em;
+            text-align: center;
+        }
+        .location-name{
+            font-weight: bold;
+            font-size: 1.2em;
+
+            margin-bottom: 10px;
+            border-bottom: 1px solid gray;
+        }
+    }
+    .msg{
+        padding: 50px;
+    }
+}

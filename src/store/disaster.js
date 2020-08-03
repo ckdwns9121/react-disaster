@@ -15,13 +15,13 @@ const initState = {
 export default function disaster(state = initState, action) {
     switch (action.type) {
         case GET_MESSAGE:
-            console.log("푸쉬데이터");
             const pushData = action.data;
-            console.log(pushData);
             return produce(
                 state,draft =>{
                     draft.data.push(pushData);
                     draft.pageNo = draft.pageNo+1;
+                    draft.loading = false;
+                    draft.error = false;
                 }
             )
         default:
