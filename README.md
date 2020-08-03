@@ -2,6 +2,8 @@
 
  - React
  - Redux
+ - Axios
+ - Hooks
  - Sass.module
 
 
