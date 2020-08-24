@@ -1,6 +1,5 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import './App.css';
-import {getDisasterMsg} from './api/getDisasterMsg';
 import DisasterContainer from './containers/DisasterContainer';
 
 
